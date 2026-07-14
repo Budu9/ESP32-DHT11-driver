@@ -33,6 +33,9 @@ RTOS interrupts are disabled (`portDISABLE_INTERRUPTS`) for the duration of the 
 
 `GPIO_PIN` is defined at the top of the source file and can be changed to any suitable GPIO.
 
+<img width="650" height="1164" alt="image" src="https://github.com/user-attachments/assets/11113928-effc-4606-91f5-f5c0021b531b" />
+
+
 ## Building and flashing
 
 Requires [ESP-IDF](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) to be installed and sourced.
