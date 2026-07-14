@@ -2,6 +2,10 @@
 
 A bare-metal driver for the DHT11 temperature and humidity sensor, written in C with the ESP-IDF framework. No third-party sensor libraries, the single-wire protocol (start sequence, response detection, bit timing, checksum validation) is implemented directly against GPIO with microsecond-level delays.
 
+<img width="849" height="1572" alt="image" src="https://github.com/user-attachments/assets/9bec9a23-3dde-438f-a5aa-8abf2f026542" />
+
+
+
 ## How it works
 
 The DHT11 uses a single-wire, half-duplex protocol over one GPIO pin (I chose GPIO4 by default):
